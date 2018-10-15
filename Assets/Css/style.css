@@ -9,6 +9,33 @@ main {
 }
 
 nav > div > div > h2 {
-  margin: -7px;
+  margin: 0em;
   /* position: fixed; */
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: teal;
+  font-family: 'Fontdiner Swanky', cursive;
+  text-shadow: 1px 1px black;
+}
+
+p {
+  font-family: 'David Libre', serif;
+  line-height: 1.25;
+  text-indent: 0.3em;
+  font-size: 1.5em;
+}
+.boxShadow {
+  box-shadow: 0.02em 0.02em 1.1em 0.01em;
+}
+
+@media only screen and (max-width: 400px) {
+  nav h2 {
+    font-size: 36px;
+  }
 }
