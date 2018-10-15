@@ -1,3 +1,5 @@
+/* #f13c20 */
+
 body {
   display: flex;
   min-height: 100vh;
@@ -13,15 +15,19 @@ nav > div > div > h2 {
   /* position: fixed; */
 }
 
+nav,
+footer {
+  background-color: #4056a1;
+}
 a,
 h1,
 h2,
 h3,
 h4,
 h5 {
-  color: teal;
+  color: #d79922;
   font-family: 'Fontdiner Swanky', cursive;
-  text-shadow: 1px 1px black;
+  text-shadow: 0.05em 0.05em #c5cbe3;
 }
 
 p {
