@@ -37,10 +37,17 @@ p {
   font-size: 1.5em;
 }
 .mainImage {
-  height: 26em;
+  height: 150px26e;
   max-width: 100%;
 }
-
+@media only screen and (max-width: 775px) {
+  nav h2 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 11px;
+  }
+}
 @media only screen and (max-width: 400px) {
   nav h2 {
     font-size: 36px;
